@@ -1,0 +1,143 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+#nav1{
+    display: flex;
+}
+#nav1 p{
+    margin-right: 18px;
+    margin-left: 35px;
+    font-family: 'Poppins';
+}
+#nav2 p{
+    margin-right: 16px;
+}
+
+
+
+body {
+    /* background-color: #c4c4c4; */
+    background-color: aliceblue;
+   
+  }
+  #section1 {
+    background-color: darkgrey;
+    display: flex;
+    max-width: 877px;
+    width: 100%;
+    margin-top: 69px;
+    margin-left: 35px;
+  }
+  #bloc-black1 {
+    background-color: black;
+    width: 194px;
+    margin-left: 337px;
+    height: 63px;
+  }
+
+  #p1 {
+    font-family: "Boston Angel";
+    font-size: 50px;
+    margin: 0px 50px;
+  }
+  #bloc-black2 {
+    background-color: black;
+    width: 276px;
+    display: flex;
+    justify-content: end;
+    padding-bottom: 5px;
+  }
+  #p2 {
+    font-family: "Boston Angel";
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+  }
+  .font2 {
+    font-family: "Poppins";
+    width: 401px;
+    font-size: 20px;
+    margin-left: 47px;
+  }
+  #block-black3 {
+    width: 223px;
+    height: 43px;
+    background-color: black;
+    margin-left: 211px;
+  }
+  #rigthside-1 img {
+    height: 100%;
+    width: 100%;
+    max-width: 346px;
+    max-height: 438px;
+  }
+  #container2{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
+  }
+  #section2 {
+    background-color: darkgrey;
+    display: flex;
+    max-width: 877px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: 35px;
+  }
+#leftside-2{
+    /* padding-left: 176px; */
+}
+  #leftside-2 > p:first-child{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 100;
+    letter-spacing: 13px;
+    margin-left: 126px;
+    margin-right: 133px;
+  }
+  #rigthside-2{
+    height: 438px;
+  }
+  #rigthside-2 img {
+    height: 100%;
+    width: 346px;
+    max-width: 346px;
+    max-height: 438px;
+}
+#foto{
+    width: 240px;
+    background-color: black;
+}
+#foto p{
+    font-size: 95px;
+    margin: 0;
+    margin-left: 67px;
+}
+#foto span{
+    color: white;
+}
+#desc-nome1{
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 89px;
+    margin-left: 87px;
+    margin-bottom: 0
+}
+#desc-nome2{
+    font-family: poppins;
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 1px;
+    margin-left: 102px;
+}
+#section3 {
+    background-color: darkgrey;
+    display: flex;
+    max-width: 877px;
+    width: 100%;
+    margin-top: 27px;
+    margin-left: 35px;
+  }
