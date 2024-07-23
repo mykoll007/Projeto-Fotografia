@@ -3,6 +3,7 @@ header{
     justify-content: space-between;
     margin-top: 25px;
 }
+
 #nav1{
     display: flex;
 }
@@ -15,11 +16,14 @@ header{
     margin-right: 16px;
 }
 
-
+/* nav p{
+  color: white;
+} */
 
 body {
     /* background-color: #c4c4c4; */
     background-color: aliceblue;
+    /* background-color: black; */
    
   }
   #section1 {
@@ -29,6 +33,7 @@ body {
     width: 100%;
     margin-top: 69px;
     margin-left: 35px;
+    border: 3px solid white;
   }
   #bloc-black1 {
     background-color: black;
@@ -67,7 +72,7 @@ body {
     background-color: black;
     margin-left: 211px;
   }
-  #rigthside-1 img {
+  #rightside-1 img {
     height: 100%;
     width: 100%;
     max-width: 346px;
@@ -85,10 +90,9 @@ body {
     width: 100%;
     margin-top: 27px;
     margin-left: 35px;
+    border: 3px solid white;
   }
-#leftside-2{
-    /* padding-left: 176px; */
-}
+
   #leftside-2 > p:first-child{
     font-size: 30px;
     font-family: poppins;
@@ -97,10 +101,10 @@ body {
     margin-left: 126px;
     margin-right: 133px;
   }
-  #rigthside-2{
+  #rightside-2{
     height: 438px;
   }
-  #rigthside-2 img {
+  #rightside-2 img {
     height: 100%;
     width: 346px;
     max-width: 346px;
@@ -136,8 +140,64 @@ body {
 #section3 {
     background-color: darkgrey;
     display: flex;
-    max-width: 877px;
+    max-width: 1118px;
     width: 100%;
-    margin-top: 27px;
+    margin-top: 45px;
     margin-left: 35px;
+    border: 3px solid white;
   }
+
+  #leftside-3 > p:first-child{
+    font-size: 58px;
+    margin-left: 44px;
+    margin-bottom: 0;
+  }
+
+  #block-black4{
+    background-color: black;
+    width: 290px;
+    color: white;
+  }
+
+  #p-section3{
+    font-size: 58px;
+    margin-top: 1px;
+    margin-left: 99px;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+  }
+  #p1-section3{
+    width: 324px;
+    font-size: 27px;
+    margin-left: 53px;
+    font-family: poppins;
+}
+#p2-section3{
+  font-size: 26px;
+  width: 367px;
+  margin-left: 53px;
+  font-family: poppins;
+  font-weight: 300;
+}
+#rightside-3{
+background-color: black;
+display: flex;
+}
+#rightside-3 div{
+  margin-top: 7px;
+  margin-right: 11px;
+}
+#img1-sect3{
+  height: 100%;
+  max-height: 595px;
+  margin: 7px 11px;
+}
+#img2-sect3{
+  max-height: 292px;
+  height: 100%;
+}
+#img3-sect3{
+  max-height: 292px;
+  height: 100%;
+  margin-top: 6px;
+}
