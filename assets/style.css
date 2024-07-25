@@ -2,6 +2,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 25px;
+    align-items: center;
 }
 
 #nav1{
@@ -13,21 +14,24 @@ header{
     font-family: 'Poppins';
 }
 #nav2 p{
-    margin-right: 16px;
+  margin-right: 16px;
+  /* padding-bottom: 0px; */
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
 }
 
-/* nav p{
+nav p{
   color: white;
-} */
+}
 
 body {
-    /* background-color: #c4c4c4; */
-    background-color: aliceblue;
-    /* background-color: black; */
-   
+    background-color: black
   }
   #section1 {
-    background-color: darkgrey;
+    background-color: #c4c4c4;
     display: flex;
     max-width: 877px;
     width: 100%;
@@ -84,7 +88,7 @@ body {
     margin-right: 2%;
   }
   #section2 {
-    background-color: darkgrey;
+    background-color: #c4c4c4;
     display: flex;
     max-width: 877px;
     width: 100%;
@@ -138,7 +142,7 @@ body {
     margin-left: 102px;
 }
 #section3 {
-    background-color: darkgrey;
+    background-color: #c4c4c4;
     display: flex;
     max-width: 1118px;
     width: 100%;
@@ -200,4 +204,259 @@ display: flex;
   max-height: 292px;
   height: 100%;
   margin-top: 6px;
+}
+#container4{
+  display: flex;
+  justify-content: end;
+  margin-right: 2%;
+}
+#section4 {
+  background-color: #c4c4c4;
+  max-width: 855px;
+  width: 100%;
+  margin-top: 45px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid white;
+}
+#leftside-4{
+  padding-top: 23px;
+}
+
+#block-black5{
+  width: 100%;
+  max-width: 376px;
+  padding-top: 0px;
+  max-height: 69px;
+  height: 100%;
+  color: white;
+  background-color: black;
+}
+#block-black5 p{
+  font-size: 58px;
+  margin: 0;
+  margin-left: 36px;
+}
+#p2-section4{
+  margin: 0;
+  font-family: poppins;
+  font-size: 23px;
+  width: 321px;
+  margin-left: 34px;
+  margin-top: 21px;
+}
+
+#icon1{
+  display: flex;
+  max-width: 274px;
+  margin-left: 27px;
+  margin-top: 48px;
+  align-items: center;
+}
+#icon1 img{
+  width: 93px;
+}
+#icon1 p{
+  font-family: poppins;
+    font-size: 23px;
+    margin-left: 5px;
+}
+#icon2{
+  display: flex;
+  max-width: 336px;
+  margin-left: 31px;
+  align-items: center;
+}
+#icon2 img{
+  width: 80px;
+  height: 79px;
+}
+#icon2 p{
+  font-family: poppins;
+  padding-left: 15px;
+  font-size: 18px;
+}
+#icon3{
+  display: flex;
+  margin-left: 25px;
+  max-width: 243px;
+  align-items: center;
+}
+#icon3 img{
+  width: 98px;
+}
+#icon3 p{
+  font-family: poppins;
+    font-size: 18px;
+}
+#rightside-4{
+  max-width: 274px;
+  padding-top: 69px;
+}
+#rightside-4 img{
+  width: 230px;
+  margin-bottom: 40px;
+}
+footer{
+  margin-top: 20px;
+  /* height: 100px; */
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  border: 1px solid white;
+}
+.rodape{
+  display: flex;
+  padding-top: 6px;
+  justify-content: space-around;
+  align-items: center;
+}
+#content-rodape1 p{
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+#content-rodape2{
+  margin-top: 16px;
+}
+#content-rodape2 p{
+  text-transform: uppercase;
+  font-family: poppins;
+  margin: 0;
+  text-align: center;
+}
+#content-rodape3 p{
+  text-transform: uppercase;
+  font-family: poppins;
+  margin: 0;
+  text-align: center;
+}
+#content-rodape4 img{
+  width: 80px;
+  border-radius: 37px
+}
+#assinatura{
+  text-align: center;
+}
+
+
+@media screen and (max-width:1200px) {
+  #section1{
+    max-width: 834px;
+  }
+  #p1, #p2{
+    font-size: 40px;
+  }
+  .font2{
+    font-size: 17px;
+  }
+  #section2{
+    margin-top: 46px;
+  }
+  #desc-nome1{
+    font-size: 22px;
+  }
+  #desc-nome2{
+    font-size: 20px;
+  }
+  #section3{
+    max-width: 990px;
+  }
+  #leftside-3 > p:first-child, #p-section3{
+    font-size: 53px;
+  }
+  #p1-section3{
+    font-size: 23px;
+  }
+    #p2-section3{
+      font-size: 22px;
+    }
+    #img1-sect3{
+      max-height: 465px;
+    }
+    #rightside-3 div {
+      display: inline-grid;
+      max-height: 467px;
+  }
+  #img2-sect3 {
+    max-height: 204px;
+    height: 203px;
+    width: 188px;
+}
+  #img3-sect3 {
+  max-height: 251px;
+}
+#p2-section4{
+  font-size: 20px;
+}
+}
+
+
+@media screen and (max-width:1100px) {
+  #leftside-2 > p:first-child{
+    font-size: 26px;
+  }
+  #desc-nome1{
+    font-size: 20px;
+  }
+  #desc-nome2{
+    font-size: 18px;
+  }
+  #section2{
+    max-width: 857px;
+  }
+  #section3{
+    max-width: 832px;
+  }
+  #leftside-3 > p:first-child, #p-section3{
+    font-size: 50px;
+  }
+  #p1-section3{
+    font-size: 21px;
+  }
+    #p2-section3{
+      font-size: 20px;
+      width: 295px;
+    }
+    #img1-sect3{
+      max-height: 454px;
+        max-width: 238px;
+    }
+    #rightside-3 div {
+      display: inline-grid;
+      max-height: 464px;
+  }
+  #img2-sect3 {
+    width: 183px;
+}
+  #img3-sect3 {
+    max-height: 244px;
+    margin-bottom: 6px;
+}
+#section4{
+  max-height: 570px;
+}
+}
+
+
+
+@media screen and (max-width:960px){
+  #container2, #container4{
+   display: block;
+    
+  }
+  #section1, #section2, #section4{
+    max-width: 832px;
+  }
+  #rightside-2 img {
+    max-width: 321px;
+}
+}
+
+
+@media screen and (max-width:900px){
+
 }
