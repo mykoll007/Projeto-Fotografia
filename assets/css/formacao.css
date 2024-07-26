@@ -10,7 +10,7 @@
     text-align: center;
     position: relative;
     /*Colocando animação do animation.css*/
-    animation: aparecer 1.5s ease-in-out;
+    animation: aparecer 1.5s ease;
 }
 section{
     display: flex;
