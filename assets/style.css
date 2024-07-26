@@ -610,7 +610,164 @@ font-size: 33px;
 
 
 @media screen and (max-width:650px){
+  header {
+    font-size: 12px;
+}
+#nav2 p {
+  font-size: 12px;
+}
   #section1, #section2, #section4 {
     max-width: 380px;
+}
+#bloc-black1 {
+  width: 131px;
+  margin-left: 96px;
+  height: 30px;
+}
+#p1, #p2 {
+  font-size: 29px;
+}
+#bloc-black2 {
+  width: 155px;
+} 
+.font2{
+  font-size: 13px;
+  width: 207px;
+  margin-left: 20px;
+}
+#block-black3 {
+  width: 96px;
+  height: 24px;
+  margin-left: 81px;
+  margin-top: 21px;
+}
+#leftside-2 > p:first-child {
+  font-size: 15px;
+  margin-bottom: 61px;
+  margin-left: 23px;
+  margin-right: 25px;
+}
+#foto {
+  width: 108px;
+}
+#foto p {
+  font-size: 41px;
+  margin-left: 30px;
+}
+#desc-nome1 {
+  font-size: 14px;
+  margin-top: 51px;
+  margin-left: 19px;
+}
+#desc-nome2 {
+  font-size: 13px;
+  margin-left: 26px;
+}
+#rightside-2 {
+  height: 294px;
+}
+#rightside-2 img {
+  max-width: 137px;
+}
+#leftside-4 {
+  padding-top: 23px;
+  padding-bottom: 12px;
+}
+#block-black5 {
+  max-width: 219px;
+  max-height: 38px;
+}
+#block-black5 p {
+  font-size: 29px;
+}
+#p2-section4 {
+  font-size: 15px;
+  width: 175px;
+}
+#icon1 {
+  max-width: 209px;
+  margin-top: 22px;
+}
+#icon1 img {
+  width: 66px;
+}
+#icon1 p {
+  font-size: 18px;
+}
+#icon2 {
+  margin-left: 12px;
+}
+#icon2 img {
+  width: 56px;
+  height: 57px;
+}
+#icon2 p {
+  font-size: 13px;
+}
+#icon3 {
+  max-width: 199px;
+}
+#icon3 img {
+  width: 79px;
+}
+#icon3 p {
+  font-size: 15px;
+}
+#rightside-4 {
+  padding-top: 55px;
+  margin-left: 21px;
+}
+#rightside-4 img {
+  width: 83px;
+}
+#section3 {
+  max-width: 382px;
+}
+#leftside-3 > p:first-child, #p-section3 {
+  font-size: 30px;
+}
+#block-black4 {
+  width: 155px;
+}
+#p-section3 {
+  margin-left: 60px;
+}
+#p1-section3 {
+  font-size: 14px;
+  width: 170px;
+  margin-left: 29px;
+}
+#p2-section3 {
+  font-size: 14px;
+  width: 192px;
+  margin-left: 27px;
+}
+#rightside-3{
+  display: block;
+}
+#img1-sect3 {
+  max-height: 276px;
+  max-width: 142px;
+  margin-right: 2px;
+}
+#img2-sect3 {
+  display: none;
+}
+#img3-sect3 {
+  display: none;
+}
+footer{
+  font-size: 12px;
+}
+#content-rodape1 p {
+  font-size: 16px;
+}
+#content-rodape4 img {
+  width: 60px;
+}
+}
+@media screen and (max-width:470px){
+#container2, #container4{
+  display: block;
 }
 }
