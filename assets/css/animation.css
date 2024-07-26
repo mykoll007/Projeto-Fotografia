@@ -1,0 +1,33 @@
+/*Colocando animações nas section*/
+
+/*Animação saindo do lado esquerdo*/
+@keyframes slideInLeft {
+    from{
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  /*Animação saindo do lado direito*/
+  @keyframes slideInRight {
+    from{
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to{
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  /*Animação Aparecendo*/
+  @keyframes aparecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+  }
