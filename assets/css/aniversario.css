@@ -1,0 +1,50 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+#container-anive{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 80%;
+    max-width: 900px;
+    min-width: 500px;
+    background-color: #c4c4c4;
+    border: 3px solid white;
+    position: relative;
+    animation: aparecer 1.5s ease;
+    display: flex;
+}
+#block_black1{
+    width: 237px;
+    height: 52px;
+    background-color: black;
+}
+#block_black1 p{
+    font-size: 37px;
+    color: white;
+}
+p{
+    margin-left: 20px;
+}
+#text1{
+    font-family: 'Poppins';
+    font-size: 15px;
+    width: 267px;
+}
+#button-list{
+    display: inline-grid;
+    width: 166px;
+    margin-left: 16%;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 31px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
