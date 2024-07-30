@@ -1,0 +1,31 @@
+
+#block-black6{
+    color: white;
+    font-size: 43px;
+    width: 330px;
+    height: 56px;
+    border: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    padding-left: 14px;
+}
+#block-black6 p{
+    margin: 0;
+}
+
+footer{
+    margin-top: 581px;
+}
+@media screen and (min-height:950px) {
+    #block-black6{
+        margin-bottom: 20px;
+    }
+    footer{
+        margin-top: 600px;
+    }
+}
+@media screen and (max-height:740px) {
+    footer{
+        margin-top: 512px;
+    }
+}

@@ -1,6 +1,11 @@
+body, html {
+    height: 100%;
+  }
 section{
     display: flex;
     justify-content: center;
+    margin-top: -2px;
+    margin-bottom: 55px;
 }
 #container-anive{
     margin-top: 35px;
@@ -44,6 +49,8 @@ button{
     border-radius: 8px;
     margin-bottom: 5px;
     cursor: pointer;
+    font-family: poppins;
+    font-size: 12px;
 }
 #button-list button:first-child {
     background-color: pink;
@@ -59,6 +66,7 @@ button{
     height: 204px;
     border: 2px solid black;
     transition: transform 1s ease;
+    object-fit: cover;
 
 }
 #rightside img:hover{
@@ -83,7 +91,7 @@ button{
     }
     button{
         height: 27px;
-        font-size: 13px;
+        font-size: 12px;
     }
     #button-list{
         margin-top: 14px;
@@ -161,3 +169,11 @@ button{
         margin-right: 15px;
     }
 }
+
+/*Ajeitando o footer pra fixar em baixo*/
+@media screen and (min-width:858px){
+    main{
+        margin-top: 44px;
+        margin-bottom: 121px;
+    
+    }}
