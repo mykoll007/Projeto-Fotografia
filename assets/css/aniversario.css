@@ -7,7 +7,6 @@ section{
     margin-bottom: 35px;
     width: 80%;
     max-width: 900px;
-    min-width: 500px;
     background-color: #c4c4c4;
     border: 3px solid white;
     position: relative;
@@ -22,6 +21,7 @@ section{
 #block_black1 p{
     font-size: 37px;
     color: white;
+    margin-top: 28px;
 }
 p{
     margin-left: 20px;
@@ -43,8 +43,121 @@ button{
     border: 1px solid black;
     border-radius: 8px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
-img{
-    width: 100px;
-    height: 100px;
+#button-list button:first-child {
+    background-color: pink;
+    color: white;
+    border: 2px solid white;
+  }
+#rightside{
+    padding-top: 26px;
+    padding-left: 9px;
+}
+#rightside img{
+    width: 192px;
+    height: 204px;
+    border: 2px solid black;
+    transition: transform 1s ease;
+
+}
+#rightside img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+@media screen and (max-width:1130px) {
+    #container-anive{
+        max-width: 824px;
+    }
+    #rightside{
+        padding-top: 28px;
+        padding-left: 9px;
+        padding-bottom: 14px;
+    }
+    #rightside img{
+        width: 162px;
+        height: 171px;
+    }
+    button{
+        height: 27px;
+        font-size: 13px;
+    }
+    #button-list{
+        margin-top: 14px;
+    }
+    #text1 {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1110px){
+    #rightside img{
+        width: 155px;
+    }
+}
+@media screen and (max-width:988px){
+    #rightside img{
+        width: 140px;
+    }
+}
+@media screen and (max-width:934px){
+    #rightside img{
+        width: 125px;
+    }
+}
+@media screen and (max-width:879px){
+    #rightside img{
+        width: 114px;
+    }
+}
+@media screen and (max-width:857px){
+    #container-anive{
+        display: block;
+    }
+    #block_black1 {
+        width: 100%;
+        text-align: center;
+    }
+    #rightside{
+        text-align: center;
+    }
+    #rightside img{
+        width: 171px;
+    }
+    #button-list {
+        margin-left: 37%;
+    }
+    #text1 {
+        font-size: 15px;
+        width: 90%;
+    }
+}
+@media screen and (max-width:500px){
+    #rightside img{
+        width: 147px;
+        height: 115px;
+    }
+    #button-list {
+        margin-left: 29%;
+    }
+    #nav2{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+    #rightside img {
+        width: 120px;
+        height: 115px;
+    }
+    #button-list{
+        margin-left: 23%;
+    }
+    footer{
+        font-size: 11px;
+    }
+    #content-rodape2 {
+        margin-right: 15px;
+    }
 }
