@@ -1,11 +1,4 @@
-/**
-@Author: Edinson Tique
-@Name: QCSlider Pluggin
-@Version: 1.4.3
-@Year: 2018
-@Contact: www.fb.com/QueCodigoPG
-@Libraries: jQuery
-**/
+
 :root {
   --opacity-slide: 0.5;
   --height-slider: 500px;
@@ -157,7 +150,7 @@ section.slide .slider-container .slider-controls li {
   height: 8px;
   margin: 0 6px;
   cursor: pointer;
-  *display: inline;
+  display: inline;
   background: #DA4453;
   text-indent: -9999px;
   display: inline-block;
