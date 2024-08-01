@@ -23,18 +23,28 @@
       href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap"
       rel="stylesheet"
     />
+     <!--Ajustando alguns detalhes para não criar outro arquivo css-->
+    <style>
+      section.slide .slider-container .slider-wrapper li img{
+        object-fit: contain;
+        background-color: black;
+      }
+      #block-black6{
+        width: 194px;
+      }
+    </style>
   </head>
   <body>
     <header>
       <nav id="nav1">
-        <p><a href="formacao.html">FORMAÇÃO</a></p>
+        <p><a href="index.html">HOME</a></p>
         <p><a href="">PORTFÓLIO</a></p>
         <p><a href="#container4">CONTATO</a></p>
         <p><a href="">AGENDA</a></p>
       </nav>
 
       <nav id="nav2">
-        <p>Paolla Dionisio</p>
+        <a href="index.html"><p>Paolla Dionisio</p></a>
       </nav>
     </header>
 
@@ -47,31 +57,23 @@
         <div class="slider-container">
           <ul class="slider-wrapper" id="slider">
             <li class="slide-current">
-              <!-- Image -->
-              <img src="/assets/imgs/paisagem1.jpeg" />
+              <img src="/assets/imgs/paisagem1.jpeg"/>
             </li>
-
             <li>
-              <!-- Image -->
-              <img src="/assets/imgs/paisagem2.jpeg" />
+              <img src="/assets/imgs/paisagem2.jpeg"/>
             </li>
-
             <li>
-              <!-- Image -->
               <img src="/assets/imgs/paisagem3.jpeg" />
             </li>
             <li>
-              <!-- Image -->
               <img src="/assets/imgs/paisagem4.jpeg" />
             </li>
 
             <li>
-              <!-- Image -->
               <img src="/assets/imgs/paisagem5.jpeg" />
             </li>
 
             <li>
-              <!-- Image -->
               <img src="/assets/imgs/paisagem6.jpeg" />
             </li>
           </ul>

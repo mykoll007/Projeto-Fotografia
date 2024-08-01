@@ -1,0 +1,70 @@
+main{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    animation: aparecer 1.5s ease;
+    margin-top: 27px;
+    margin-bottom: 19px;
+}
+
+section{
+    width: 100%;
+    height: 643px;
+    border: 1px solid white;
+    background-color: #c4c4c4;
+    max-width: 891px;
+    overflow: hidden;
+
+}
+#cont-agenda{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 22px;
+}
+section div div{
+    width: 279px;
+    color: white;
+    background-color: black;
+}
+section p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 62px;
+    margin: 0;
+}
+#cont-ul{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 35px;
+}
+ul{
+    width: 393px;
+}
+li{
+    font-family: poppins;
+}
+#block-teste{
+    width: 350px;
+    height: 292px;
+    background-color: black;
+    position: relative;
+    left: -134px;
+    transform: rotate(39deg);
+}
+#block-teste2{
+    width: 379px;
+    height: 292px;
+    background-color: black;
+    position: relative;
+    left: 673px;
+    bottom: 914px;
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width:1000px) {
+    section{
+        width: 80%;
+    }
+}

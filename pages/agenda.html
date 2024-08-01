@@ -3,12 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Empreendimentos</title>
+    <title>Agenda</title>
     <link href="/assets/css/index.css" rel="stylesheet" />
+    <link href="/assets/css/agenda.css" rel="stylesheet" />
     <link href="/assets/css/animation.css" rel="stylesheet" />
-    <link href="/assets/css/empre-pa-ali-na.css" rel="stylesheet" />
-    <!--Colocando plugin jquery-->
-    <link href="/assets/css/qc.slider.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Boston+Angel&display=swap"
       rel="stylesheet"
@@ -29,67 +27,38 @@
       <nav id="nav1">
         <p><a href="index.html">HOME</a></p>
         <p><a href="">PORTFÓLIO</a></p>
-        <p><a href="#container4">CONTATO</a></p>
-        <p><a href="">AGENDA</a></p>
+        <p><a href="/pages/index.html#container4">CONTATO</a></p>
+        <p><a href="formacao.html">FORMAÇÃO</a></p>
       </nav>
-
       <nav id="nav2">
         <a href="index.html"><p>Paolla Dionisio</p></a>
       </nav>
     </header>
-
     <main>
-      <div id="block-black6">
-        <p>Empreendimentos</p>
-      </div>
-
-      <section class="slide">
-        <div class="slider-container">
-          <ul class="slider-wrapper" id="slider">
-            <li class="slide-current">
-              <!-- Image -->
-              <img src="/assets/imgs/empreendimento1.jpeg" />
-            </li>
-
-            <li>
-              <!-- Image -->
-              <img src="/assets/imgs/empreendimento2.jpeg" />
-            </li>
-
-            <!-- HTML5 Video -->
-            <li
-              class="video"
-              data-type="video"
-              data-video="/assets/videos/empreendimentovideo1.mp4"
-              data-muted="false"
-            ></li>
-
-            <li>
-              <!-- Image -->
-              <img src="/assets/imgs/empreendimento3.jpeg" />
-            </li>
-
-            <li>
-              <!-- Image -->
-              <img src="/assets/imgs/empreendimento4.jpeg" />
-            </li>
-
-            <li>
-              <!-- Image -->
-              <img src="/assets/imgs/empreendimento5.jpeg" />
-            </li>
-          </ul>
-          <!-- Nav controls -->
-          <div class="drt-control control-left" id="lft-control"><</div>
-          <div class="drt-control control-right" id="rht-control">></div>
-          <ul class="slider-controls" id="slider-controls"></ul>
-          <!-- Progressbar -->
-          <div class="tempo-bar" id="barra"></div>
+      <section>
+        <div id="cont-agenda">
+          <div>
+            <p>Agenda</p>
+          </div>
         </div>
+        <p>Aberta para:</p>
+        <div id="cont-ul">
+          <ul>
+            <li>Aniversários</li>
+            <li>Empreendimentos e ramo imobiliário;</li>
+            <li>Noivados;</li>
+            <li>Ensaio fotográfico;</li>
+            <li>Comercial(Ramo alimentício, salão de beleza);</li>
+            <li>Eventos(igrejas, convenções).</li>
+          </ul>
+        </div>
+
+        <div id="block-teste"></div>
+        <div id="block-teste2"></div>
       </section>
     </main>
 
-    <footer id="footer-aniv">
+    <footer>
       <div class="rodape">
         <div id="content-rodape1">
           <p><a href="index.html">Paolla Dionisio</a></p>
@@ -118,7 +87,4 @@
       </p>
     </footer>
   </body>
-
-  <script src="/assets/js/jquery-3.7.1.min.js"></script>
-  <script src="/assets/js/qcslider.jquery.js"></script>
 </html>
