@@ -66,5 +66,88 @@ li{
 @media screen and (max-width:1000px) {
     section{
         width: 80%;
+        height: 617px;
+    }
+    section p{
+        font-size: 48px;
+
+    }
+    #cont-ul{
+        font-size: 19px;
+    }
+    #block-teste{
+        width: 300px;
+        height: 263px;
+        left: -125px;
+        bottom: -90px;
+    }
+    #block-teste2{
+    width: 307px;
+    height: 292px;
+    left: 632px;
+    bottom: 825px;
+    }
+}
+
+@media screen and (max-width:986px) {
+    #block-teste2{
+        width: 312px;
+
+        left: 619px;
+    }
+}
+
+@media screen and (max-width:850px){
+section p{
+    font-size: 35px;
+}
+#cont-agenda{
+    margin-top: 51px;
+}
+#cont-ul{
+    font-size: 17px;
+    margin-top: 60px;
+}
+#block-teste{
+    left: -161px;
+}
+#block-teste2{
+    left: 547px;
+}
+}
+
+@media screen and (max-width:750px) {
+    #block-teste{
+        left: -195px;
+    }
+}
+
+@media screen and (max-width:690px) {
+    #block-teste2{
+        left: 467px;
+    }
+}
+
+@media screen and (max-width:604px) {
+    #block-teste{
+        left: -236px;
+    }
+}
+@media screen and (max-width:580px) {
+    #block-teste2{
+        left: 407px;
+    }
+}
+@media screen and (max-width:500px) {
+    #block-teste{
+        left: -280px;
+    }
+}
+@media screen and (max-width:499px) {
+    #block-teste{
+       display: none;
+    }    
+    #block-teste2{
+        display: none;
     }
 }

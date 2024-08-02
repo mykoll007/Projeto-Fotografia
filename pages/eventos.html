@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Empreendimentos</title>
+    <title>Eventos</title>
     <link href="/assets/css/index.css" rel="stylesheet" />
     <link href="/assets/css/animation.css" rel="stylesheet" />
     <link href="/assets/css/empre-pa-ali-na.css" rel="stylesheet" />
@@ -23,6 +23,15 @@
       href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap"
       rel="stylesheet"
     />
+    <style>
+      section.slide .slider-container .slider-wrapper li img {
+        object-fit: contain;
+        background-color: black;
+      }
+      #block-black6 {
+        width: 150px;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -40,7 +49,7 @@
 
     <main>
       <div id="block-black6">
-        <p>Empreendimentos</p>
+        <p>Eventos</p>
       </div>
 
       <section class="slide">
@@ -48,35 +57,37 @@
           <ul class="slider-wrapper" id="slider">
             <li class="slide-current">
               <!-- Image -->
-              <img src="/assets/imgs/empreendimento1.jpeg" />
+              <img src="/assets/imgs/evento1.jpeg" />
             </li>
 
             <li>
               <!-- Image -->
-              <img src="/assets/imgs/empreendimento2.jpeg" />
+              <img src="/assets/imgs/evento2.jpeg" />
             </li>
 
             <!-- HTML5 Video -->
             <li
               class="video"
               data-type="video"
-              data-video="/assets/videos/empreendimentovideo1.mp4"
+              data-video="/assets/videos/evento3.mp4"
               data-muted="false"
             ></li>
 
             <li>
               <!-- Image -->
-              <img src="/assets/imgs/empreendimento3.jpeg" />
+              <img src="/assets/imgs/evento4.jpeg" />
             </li>
+            <!-- HTML5 Video -->
+            <li
+              class="video"
+              data-type="video"
+              data-video="/assets/videos/evento5.mp4"
+              data-muted="false"
+            ></li>
 
             <li>
               <!-- Image -->
-              <img src="/assets/imgs/empreendimento4.jpeg" />
-            </li>
-
-            <li>
-              <!-- Image -->
-              <img src="/assets/imgs/empreendimento5.jpeg" />
+              <img src="/assets/imgs/evento6.jpeg" />
             </li>
           </ul>
           <!-- Nav controls -->
