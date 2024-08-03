@@ -839,7 +839,7 @@ footer{
   width: 60px;
 }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
   #section1, #section3{
     animation: none;
   }
@@ -850,9 +850,5 @@ footer{
     display: block;
   }
 }
-@media screen and (max-width:448px){
-  #nav2{
-    display: none;
-  }
-}
+
 
