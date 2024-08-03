@@ -62,9 +62,6 @@ li{
     bottom: 914px;
     transform: rotate(45deg);
 }
-button{
-    
-}
 
 @media screen and (max-width:1000px) {
     section{
