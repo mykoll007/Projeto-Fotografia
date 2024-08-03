@@ -381,6 +381,15 @@ footer{
   text-align: center;
 }
 
+/*Colocando animações nas section*/
+
+#section1, #section3{
+  animation: slideInLeft 2s ease-out;
+}
+#section2, #section4{
+  animation: slideInRight 2s ease-out;
+}
+
 
 @media screen and (max-width:1200px) {
   #section1{
@@ -830,19 +839,20 @@ footer{
   width: 60px;
 }
 }
-@media screen and (max-width:470px){
-#container2, #container4{
-  display: block;
+@media screen and (max-width:500px) {
+  #section1, #section3{
+    animation: none;
+  }
+  #section2, #section4{
+    animation: none;
+  }
+  #container2, #container4{
+    display: block;
+  }
 }
-}
-
-
-/*Colocando animações nas section*/
-
-#section1, #section3{
-  animation: slideInLeft 2s ease-out;
-}
-#section2, #section4{
-  animation: slideInRight 2s ease-out;
+@media screen and (max-width:448px){
+  #nav2{
+    display: none;
+  }
 }
 
