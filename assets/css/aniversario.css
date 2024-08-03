@@ -157,6 +157,11 @@ button{
         width: 90%;
     }
 }
+@media screen and (max-width:650px) {
+    header {
+        font-size: 11px;
+    }
+}
 @media screen and (max-width:500px){
     #rightside img{
         width: 147px;
@@ -166,7 +171,7 @@ button{
         margin-left: 29%;
     }
     #nav2{
-        display: none;
+        display: block;
     }
 }
 @media screen and (max-width:400px){

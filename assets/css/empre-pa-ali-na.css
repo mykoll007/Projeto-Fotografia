@@ -25,8 +25,19 @@ footer{
         margin-top: 600px;
     }
 }
+
 @media screen and (max-height:740px) {
+    #block-black6{
+        font-size: 35px;
+    }
     footer{
         margin-top: 512px;
+    }
+}
+
+@media screen and (min-height:740px) {
+    #block-black6{
+        font-size: 35px;
+        padding-top: 10px;
     }
 }

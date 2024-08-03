@@ -137,6 +137,10 @@ section p{
     #block-teste2{
         left: 407px;
     }
+    header{
+        justify-content: space-around;
+        font-size: 11px;
+    }
 }
 @media screen and (max-width:500px) {
     #block-teste{
@@ -144,10 +148,18 @@ section p{
     }
 }
 @media screen and (max-width:499px) {
+
+    main{
+        margin-top: 64px;
+    margin-bottom: 93px;
+    }
     #block-teste{
        display: none;
     }    
     #block-teste2{
         display: none;
+    }
+    section{
+        height: 472px;
     }
 }

@@ -800,7 +800,7 @@ font-size: 33px;
   font-size: 30px;
 }
 #block-black4 {
-  width: 155px;
+  width: 180px;
 }
 #p-section3 {
   margin-left: 60px;
@@ -839,15 +839,19 @@ footer{
   width: 60px;
 }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:500px) {
   #section1, #section3{
     animation: none;
+    margin-left: 0;
+   
   }
   #section2, #section4{
     animation: none;
+    margin-left: 0;
   }
-  #container2, #container4{
-    display: block;
+ #container1, #container2, #container3, #container4{
+    justify-content: center;
+    display: flex;
   }
 }
 
