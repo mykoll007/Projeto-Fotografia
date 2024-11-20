@@ -55,7 +55,13 @@ button{
 }
 
 #footer-port{
+    background-color: transparent;
+    width: 100%;
     border: 0;
     text-align: center;
     margin-top: 0;
+}
+#align-redes{
+    display: flex;
+    justify-content: center;
 }
